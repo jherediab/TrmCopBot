@@ -83,7 +83,7 @@ public class TrmCopBot extends TelegramLongPollingBot{
 				
 				message.setText("TRM Valida desde: " + simpleDateFormat.format(tcrmResponse.getValidityFrom().getTime())
 						+"\nTRM Valida hasta: " + simpleDateFormat.format(tcrmResponse.getValidityTo().getTime())
-						+"\nValor: "+decimalFormat.format(tcrmResponse.getValue()) );
+						+"\nValor2: "+decimalFormat.format(tcrmResponse.getValue()) );
 				//message.setText("TCRM Valida hasta: " + simpleDateFormat.format(tcrmResponse.getValidityTo().getTime()));
 				//message.setText("valor: "+decimalFormat.format(tcrmResponse.getValue()));
 				
