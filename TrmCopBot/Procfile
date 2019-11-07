@@ -1,1 +1,1 @@
-worker: sh bin/bot_trm.jar
+worker: java -jar bin/bot_trm.jar
