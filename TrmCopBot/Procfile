@@ -1,1 +1,1 @@
-web: java -jar target/bot_trm.jar
+web: java bin/bot_trm.jar
